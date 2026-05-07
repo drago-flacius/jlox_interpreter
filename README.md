@@ -1,0 +1,1 @@
+Implemented an interpreter in Java while following the book Crafting Interpreters by Robert Nystrom. Solved all problems after every chapter and at the end added a few data structures to Lox (Array and HashMap).
