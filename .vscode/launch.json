@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GenerateAst",
+            "request": "launch",
+            "mainClass": "tools.GenerateAst",
+            "projectName": "jlox_interpreter_c646d25b",
+            "args": [
+                "${workspaceFolder}/src/"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Lox",
+            "request": "launch",
+            "mainClass": "Lox",
+            "projectName": "jlox_interpreter_c646d25b",
+            "args": [
+                "${workspaceFolder}/src/src.lox"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "GenerateAst",
+            "request": "launch",
+            "mainClass": "tools.GenerateAst",
+            "projectName": "jlox_interpreter"
+        },
+        {
+            "type": "java",
+            "name": "GenerateAst",
+            "request": "launch",
+            "mainClass": "tools.GenerateAst",
+            "projectName": "jlox_interpreter",
+            "args": [
+                "${workspaceFolder}/src/"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Debug Lox",
+            "request": "launch",
+            "mainClass": "Lox",
+            "projectName": "jlox_interpreter_c646d25b",
+            "args": [
+                "${workspaceFolder}/src/src.lox"
+            ]
+        }
+    ]
+}
